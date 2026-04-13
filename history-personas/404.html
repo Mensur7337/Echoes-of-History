@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 — Echoes of History</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-gold: #e5b323;
+            --bg-dark: #1a1a14;
+            --text-muted: #a0a095;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: var(--bg-dark);
+            color: #fff;
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .wrapper { padding: 40px 20px; }
+        .code {
+            font-size: clamp(5rem, 20vw, 9rem);
+            font-weight: 800;
+            color: var(--primary-gold);
+            line-height: 1;
+            letter-spacing: -4px;
+        }
+        .msg {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            margin: 20px 0 36px;
+        }
+        .btn {
+            background: var(--primary-gold);
+            color: #1a1a14;
+            border: none;
+            padding: 14px 36px;
+            border-radius: 10px;
+            font-weight: 800;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn:hover { opacity: .85; }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="code">404</div>
+        <p class="msg">Bu zaman dilimi henüz keşfedilmedi.</p>
+        <a href="/" class="btn">Ana Sayfaya Dön</a>
+    </div>
+</body>
+</html>
