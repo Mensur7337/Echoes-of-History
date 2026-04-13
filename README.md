@@ -155,7 +155,7 @@ echoes-of-history/
 Bu uygulama sunucusuz çalıştığından URL hiçbir zaman değişmez. URL Her değiştiğinde 404 sayfasına atar.Tüm sayfa geçişleri JavaScript state'i üzerinden yapılır:
 
 ```js
-// Sayfa geçişi
+// url den herhangi bir Sayfa geçişine izin vermez. 
 const rawPath = window.location.pathname
             .replace(/\/index\.html$/, '')  
             .replace(/\/$/, '') || '/';     
@@ -189,10 +189,10 @@ Component (taban sınıf)
     "sessions": [
       {
         "id": "sess_1712345678",
-        "startedAt": "2024-04-06T10:00:00Z",
+        "startedAt": "2026-10-04T10:00:00Z",
         "messages": [
           { "sender": "ai",   "text": "Merhaba!" },
-          { "sender": "user", "text": "Rölativite nedir?" }
+          { "sender": "user", "text": "Görecelik kanunu nedir?" }
         ]
       }
     ]
