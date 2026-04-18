@@ -1,3 +1,5 @@
+[History-Personas-Ekran-Görüntüleri.pdf](https://github.com/user-attachments/files/26858058/History-Personas-Ekran-Goruntuleri.pdf)
+
 # ⌛ Echoes of History
 
 > Tarihin en büyük zihinleriyle konuş. AI destekli tarihsel persona sohbet uygulaması.
